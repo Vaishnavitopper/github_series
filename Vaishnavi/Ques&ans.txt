@@ -1,5 +1,5 @@
-Day 1 Task - 1
-Questions and Ansers:-
+Day 1 Task - 1 
+Questions and Answers:-
 1. What do you mean by git and GitHub?
 Answer: Git is a distributed version-control system for tracking changes in source code during software development.
 GitHub is a server where we can have an account.
@@ -17,11 +17,12 @@ Answer: Other platforms similar to GitHub are Bitbucket, GitLab, Google Cloud So
 5. Why are you interested in learning of Git and Github?
 Answer: Since Git is a open source software and has many benefits in programming I'm interested in learning this world's largest software.
 
-Day 2 Task 2:-
-My link to the GitHub repository is https://github.com/Vaishnavitopper/My-first-GIT.git
-From this repo i will complete my tasks.
 
-Answers for the given questions are:-      
+Day 2 Task 2:-
+My link to the GitHub repository is https://github.com/Vaishnavitopper/My-first-GIT.git         
+I can now complete my tasks from this repository.
+
+Question and Answers:-     
 a. How git workflow works?
 Answer: A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes. We can view about git workflow by using the command git status which is used after adding the file and gives us the status of that file. That is also called as staging area.
 
@@ -29,10 +30,38 @@ b. What're the different stages of a git project as commit, add?
 Answer: There are three different stages of the git project, these are Working Directory, Staging Area and Git Directory.Working directory is the directory containing hidden .git folder.Staging area is where we organize the files to be committed to Git for tracking their versions. Indexing is the process of adding files to the staging area. In other words, index constitutes of files added to the staging area.  Git directory is the database where metadata about project files’ history will be tracked.
 
 c. Is it possible to do a git commit before git add . if you have made any changes? Explain why? 
-Answer: The "commit" command is used to save your changes to the local repository. We have to explicitly tell which changes we want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, we need to use the "git add" command to mark the desired changes for inclusion. Thus it is not possible to do a git commit before git add if we have made any changes. 
+Answer: The git add and commit commands compose the fundamental Git workflow. These are the two commands that every Git user needs to understand, regardless of their team's collaboration model. They are the means to record versions of a project into the repository's history.
+Developing a project revolves around the basic edit/stage/commit pattern. First, you edit your files in the working directory. When you're ready to save a copy of teh current stage of the project, you stage changes with git add. After you're happy with the staged snapshot, you commit it to the project history with git commit. The git reset command is used to undo a commit or staged snapshoy. Hence, it is not possible to do git commit before git add.
 
 d. Why is git diff used?
 Answer:  git diff command is used to tell what difference is made in a file. If there are more than one file then the command will tell the differences of the files one by one.
 
 e. Can we leave the commit message as blank?
 Answer: Yes, we can leave the commit message as blank but it is considered to have short commit message if we made any changes to the file.
+
+
+Day 3 Task 3:-
+The link of the two PR are:- https://github.com/codewayy/github_series/pull/126 and https://github.com/codewayy/github_series/pull/129        
+
+Answers to the given questions are:-
+a. What is meant by the term fork and clone?  
+Answer: Git Fork means we just create a copy of the main repository of a project source code to our own GitHub profile. Here we can experiment whatever we like without affecting the main source of that project. Then we can make our changes and create a Pull Request to the main repository branch. When we would like to use someone's project as a starting point of our own. This process is known as forking. Git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. When we clone a repository, the repository is copied on to our local machine with the help of Git.
+
+b. What are branches in Github? 
+Answer: A branch in Git is simply a lightweight movable pointer to one of the commits. The default branch name in Git is master.As we start making commits, we are given a master branch that points to the last commit we made. Every time we commit, the master branch pointer moves forward automatically.
+
+c. What is PR?
+Answer:PR means Pull Requests which let us tell others about changes we've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+
+d. Can we delete the master branch if not Why?
+Answer: It is possible to delete the master branch but before that we need to  change our GitHub repository default branch. We need to go to the GitHub page for our forked repository, and click on the “Settings” button. Then click on the "Branches" tab on the left hand side. There’s a “Default branch” dropdown list near the top of the screen. From there, select placeholder (where placeholder is the dummy name for our new default branch). Confirm that we want to change our default branch. Now we can do (from the command line):
+git push origin :master
+
+e. How can we delete a branch? 
+Answer:This can be done in 2 ways:-
+   Github:-
+   1. On GitHub, navigate to the main page of the repository.
+   2. Above the list of files, click NUMBER branches.
+   3. Scroll to the branch that you want to delete, then click the delete icon.
+   Git Bash:-
+   In Git Bash, write the command git branch –d <Branch Name> and the branch will be deleted.
