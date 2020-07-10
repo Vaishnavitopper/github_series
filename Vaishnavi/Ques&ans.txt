@@ -19,7 +19,7 @@ Answer: Since Git is a open source software and has many benefits in programming
 
 Day 2 Task 2:-
 My link to the GitHub repository is https://github.com/Vaishnavitopper/My-first-GIT.git
-All the tasks will be completed from this repository.
+From this repo i will complete my tasks.
 
 Answers for the given questions are:-      
 a. How git workflow works?
