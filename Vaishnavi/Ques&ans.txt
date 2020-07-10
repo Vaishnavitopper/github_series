@@ -38,7 +38,7 @@ e. Can we leave the commit message as blank?
 Answer: Yes, we can leave the commit message as blank but it is considered to have short commit message if we made any changes to the file.
 
 
-Day 3 Task -3:-
+Day 3 Task 3:-
 The link of the two PR are:- https://github.com/codewayy/github_series/pull/126 and https://github.com/codewayy/github_series/pull/129        
 
 The answers to the given questions are:-
