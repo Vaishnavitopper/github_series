@@ -19,8 +19,8 @@ Answer: Other platforms similar to GitHub are Bitbucket, GitLab, Google Cloud So
 Answer: Since Git is a open source software and has many benefits in programming I'm interested in learning this world's largest software.
 
 Day 2 Task 2:-
-My link to the GitHub repository is https://github.com/Vaishnavitopper/My-first-GIT.git         
-This is my github repository and all the tasks from GitHub series will be uploaded here.
+My link to the GitHub repository is https://github.com/Vaishnavitopper/My-first-GIT.git
+All the tasks will be completed from this repository.
 
 Answers for the given questions are:-      
 a. How git workflow works?
