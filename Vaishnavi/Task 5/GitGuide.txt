@@ -1,0 +1,43 @@
+Hello Everyone!!
+
+This is a step by step guide about GIT.
+Git is a distributed version-control system for tracking changes in source code during software development.
+Github is a server where we can have an account. Github is an open source repository which is world’s largest software and it provides many benefits that it is used in most of the projects. 
+
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Git is designed for coordinating work among programmers and it is used to track changes in any set of files. 
+Git simplifies the process of working with other people and makes it easy to collaborate on projects. Team members can work on files and easily merge their changes in with the master branch of the project. 
+
+How Git Workflow works?
+A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes. We can view about git workflow by using the command git status which is used after adding the file and gives us the status of that file. That is also called as staging area.
+
+There are three different stages of the git project; these are Working Directory, Staging Area and Git Directory. Working directory is the directory containing hidden .git folder. Staging area is where we organize the files to be committed to Git for tracking their versions. Indexing is the process of adding files to the staging area. In other words, index constitutes of files added to the staging area.  Git directory is the database where metadata about project files’ history will be tracked.
+The "commit" command is used to save your changes to the local repository. We have to explicitly tell which changes we want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, we need to use the "git add" command to mark the desired changes for inclusion. Thus it is not possible to do a git commit before git add if we have made any changes.
+
+Git diff command is used to tell what difference is made in a file. If there is more than one file then the command will tell the differences of the files one by one. 
+And yeah we can leave the commit message as blank but it is considered to have short commit message if we made any changes to the file.
+
+Git Forking
+Git Fork means we just create a copy of the main repository of a project source code to our own GitHub profile. Here we can experiment whatever we like without affecting the main source of that project. Then we can make our changes and create a Pull Request to the main repository branch. When we would like to use someone's project as a starting point of our own. This process is known as forking.
+
+Git Cloning
+Git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository. When we clone a repository, the repository is copied on to our local machine with the help of Git.
+
+What are branches in Github? 
+A branch in Git is simply a lightweight movable pointer to one of the commits. The default branch name in Git is master. As we start making commits; we are given a master branch that points to the last commit we made. Every time we commit, the master branch pointer moves forward automatically.
+
+What is PR?
+PR means Pull Requests which let us tell others about changes we've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+
+We can delete a branch in 2 ways:-
+Github:-
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click NUMBER branches.
+3. Scroll to the branch that you want to delete, and then click the delete icon.
+Git Bash:-
+In Git Bash, write the command git branch –d <Branch Name> and the branch will be deleted.
+
+Merge Conflict
+A merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits. When all the changes in the code occur on different lines or in different files, Git will successfully merge commits without your help.
+For example, if two persons are working on same file and make some changes on the same line of code then a merge conflict will occur.
+Git –d branch deletes the branch which has been pushed and merged with the remote branch.
+And git –D branch forces the branch to be deleted locally, even if it is not been pushed or merged.
